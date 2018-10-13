@@ -19,11 +19,11 @@ Howto: after installing all packages, python yk2805_Patrick_kmeans.py
 
 Logic Structure:
 1. Initialization
-  1. Load the image to variable 'orig' 
-    1. (orig = cv2.imread('./face_d2.jpg'))
-    2. The dimension of image is loaded into variable 'shape' (300,251,3)
-  2. Set the variable K (number of clusters) as 8.
-  3. Display the original image for 5 seconds. (Name: 'Original')
+    1. Load the image to variable 'orig' 
+      1. (orig = cv2.imread('./face_d2.jpg'))
+      2. The dimension of image is loaded into variable 'shape' (300,251,3)
+    2. Set the variable K (number of clusters) as 8.
+    3. Display the original image for 5 seconds. (Name: 'Original')
 2. Gaussian Filter
   1. Implement GaussianBlur with kernel size (5,5), store the result in variable 'ab'
     1. (ab = cv2.GaussianBlur(orig, (5,5), 0)
